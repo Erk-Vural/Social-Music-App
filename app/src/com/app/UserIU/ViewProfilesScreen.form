@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.app.UserIU.ViewProfilesScreen">
+  <grid id="27dc6" binding="viewProfilePanel" layout-manager="GridLayoutManager" row-count="6" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="925" height="378"/>
+    </constraints>
+    <properties>
+      <background color="-328966"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="5c76d" class="javax.swing.JTable" binding="premiumUsersTable">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4357"/>
+        </properties>
+      </component>
+      <component id="2492a" class="javax.swing.JButton" binding="rapButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6926186"/>
+          <foreground color="-328966"/>
+          <text value="RAP"/>
+        </properties>
+      </component>
+      <component id="b6647" class="javax.swing.JButton" binding="rockButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6926186"/>
+          <foreground color="-328966"/>
+          <text value="ROCK"/>
+        </properties>
+      </component>
+      <component id="f1479" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select Friend "/>
+        </properties>
+      </component>
+      <component id="d922d" class="javax.swing.JTextField" binding="idTextField">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4244" class="javax.swing.JButton" binding="goButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6926186"/>
+          <foreground color="-328966"/>
+          <text value="Go"/>
+        </properties>
+      </component>
+      <component id="d47dc" class="javax.swing.JButton" binding="addSongButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6926186"/>
+          <foreground color="-328966"/>
+          <text value="ADD SONG"/>
+        </properties>
+      </component>
+      <component id="3e1ca" class="javax.swing.JTable" binding="albumTable">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4357"/>
+        </properties>
+      </component>
+      <component id="2bfa2" class="javax.swing.JTable" binding="artistTable">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4357"/>
+        </properties>
+      </component>
+      <component id="88fc7" class="javax.swing.JButton" binding="addArtistButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6926186"/>
+          <enabled value="true"/>
+          <foreground color="-328966"/>
+          <text value="ADD ARTIST"/>
+        </properties>
+      </component>
+      <component id="e3a5c" class="javax.swing.JButton" binding="addAlbumButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6926186"/>
+          <foreground color="-328966"/>
+          <text value="ADD Album"/>
+        </properties>
+      </component>
+      <component id="88b5e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select Song From Playlist"/>
+        </properties>
+      </component>
+      <component id="119d8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select Artist"/>
+        </properties>
+      </component>
+      <component id="293fa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select Album"/>
+        </properties>
+      </component>
+      <component id="29cfa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Select Playlist"/>
+        </properties>
+      </component>
+      <component id="137f3" class="javax.swing.JTable" binding="playlistTable">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4357"/>
+        </properties>
+      </component>
+      <component id="d0fae" class="javax.swing.JButton" binding="addPlaylistButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6926186"/>
+          <foreground color="-328966"/>
+          <text value="ADD PLAYLIST"/>
+        </properties>
+      </component>
+      <component id="b5128" class="javax.swing.JTable" binding="songTable">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4357"/>
+        </properties>
+      </component>
+      <component id="d50af" class="javax.swing.JButton" binding="metalButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6926186"/>
+          <foreground color="-328966"/>
+          <text value="METAL"/>
+        </properties>
+      </component>
+      <component id="c3aad" class="javax.swing.JButton" binding="generalButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6926186"/>
+          <foreground color="-328966"/>
+          <text value="GENERAL"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
